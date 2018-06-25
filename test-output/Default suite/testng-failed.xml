@@ -6,7 +6,9 @@
       <class name="example.org.seleniumtraining.BookTicket">
         <methods>
           <include name="beforeTest"/>
-          <include name="f"/>
+          <include name="afterTest"/>
+          <include name="findFlight"/>
+          <include name="f" invocation-numbers="0"/>
         </methods>
       </class> <!-- example.org.seleniumtraining.BookTicket -->
     </classes>
